@@ -428,14 +428,13 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background
 .frontpagemenu #MenuBar1 li .MenuBarSubmenuVisible li {
 	font-size: 14px;
 	/* width: 175px; */
-	width: 175px;
 	/* width: 185px; */
+	width: 260px;
 	text-align: left;
 	font-weight: normal;
 }
 .frontpagemenu #MenuBar1 li .MenuBarSubmenuVisible li a{
-  padding-right: -11px;
-  width: 175px;
+  width: 260px;
 }
 
 #MenuBar1 > li > a.MenuBarItemSubmenu, #MenuBar1 > li > a.MenuBarItem {
@@ -494,9 +493,10 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background
 	line-height: 19px;
 	font-size: 13px;
 }
-ul.MenuBarHorizontal .MenuBarSubmenuVisible{
-	width: 177px;
+ul.MenuBarHorizontal ul.MenuBarSubmenuVisible{
+	/* width: 177px; */
 	/* width: 187px; */
+	width: 262px;
 }
 ul.MenuBarHorizontal a.MenuBarItemSubmenu
 {
