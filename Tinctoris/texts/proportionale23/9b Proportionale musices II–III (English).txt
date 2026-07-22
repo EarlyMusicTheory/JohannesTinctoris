@@ -1,8 +1,9 @@
 Proportionale musices II–III
 Translator: Jeffrey Dean
 Checked by:
-Date established: 25 November 2025
+Date established: 17 February 2026
 <treatise>
+[Only Books II and III of the <italic>Proportionale musices</italic> are available here. To keep things manageable, Book I is in a separate file. We apologize for the faults in sentence numbering and in the display of some music examples: project funding having expired, we cannot afford troubleshooting. Cross-references correspond to sentence numbers as displayed.]
 <book></book><book>
 <chapter>
 <heading>On proportions of inequality that come about by the relation of a smaller number to a larger one. Book II, Chapter 1 [i].</heading>
