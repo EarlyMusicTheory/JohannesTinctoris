@@ -20,10 +20,22 @@ gem "jekyll", "~> 4.1.1"
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
-platforms :mingw, :x64_mingw, :mswin, :jruby do
+platforms :windows, :jruby do
   gem "tzinfo", "~> 1.2"
   gem "tzinfo-data"
 end
 
+# 06.02.2026 AP: Deleted Gemfile.lock and changed the following lines to
+# ensure running the site locally on Windows without errors.
+# Building on GitHub still works as expected without these changes.
+# Until this changes, do not push these changes!!!
+
 # Performance-booster for watching directories on Windows
-gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
+#gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
+
+# Try fix problems on windows
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+
+# Try to avoid "webrick was loaded from the standard library, but is not part of the default gems starting from Ruby 3.0.0.
+# You can add webrick to your Gemfile or gemspec to silence this warning."
+gem "webrick"
