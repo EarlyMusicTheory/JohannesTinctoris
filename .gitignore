@@ -3,6 +3,8 @@ node_modules/
 _site
 .jekyll-cache
 
+**/combined.js.bak
+
 
 debug.log
 CNAME
